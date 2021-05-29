@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<title>Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=0">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+ .wishlist{
+
+	position: relative;
+	top: -200px;
+	right:-600px;
+	
+}
+.uicolor{
+	margin-left:13.8em;
+	
+}
+.WIREFRAMES{
+	width :30%;
+   padding:45px;
+   float: left;
+  }
+  .screen1{
+  	width :30%;
+   padding:40px;
+  }
+   .screenp{
+  	width :30%;
+   padding:40px;
+  }
+   .screenw{
+  	width :30%;
+   padding:40px;
+  }
+   .screenc{
+  	width :30%;
+   padding:40px;
+  }
+ 
+#onboard{
+   position:relative;
+   margin-top:-10px;
+}
+#photos{
+	position:relative;
+   margin-top:-500px;
+}
+#home{
+	position: relative;
+	margin-top:-200px;
+}
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+
+
+#main {
+  margin-left: 120px; 
+   -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  padding: 20px;
+}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width:700px) {
+#main {margin-left: 0}
+#home{
+    position:relative;
+    margin-left:12.80em;
+}
+.row {   
+    flex-direction: column;
+  }
+
+}
+</style>
+<body class="w3-black">
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#onboard" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>SCREENS</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+   <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#onboard" class="w3-bar-item w3-button" style="width:25% !important">SCREENS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="row">
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+    <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <img style="position :relative;magrgin-left:20.8em;"src="logo_transparent.png" alt="logo" class="w3-image" width="800" height="1108">
+     <h1 style="margin-left:-1.8em; color:white; position :relative ; top:-180px;"> Whatever you got in mind we have got inside</h1>
+    </header>
+  
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">Idea and Goal</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p style="color:white;">Habitual is an e-commerce application designed on figma. <br>I have tried to make the app attractive and <br> user friendly so that the users have a  great  shopping experience.</p>
+    <p style="color:white;">As a begginer I designed on Figma because of its cool features like <br> Frames,Prototyping,Colour libraries and etc.</p>
+    <p style="color:white;">I have used plugins like  autoflow,iconify,humaaans for figma,blush <br> to design Habitual.</p>
+    <img class="wishlist" src="X Mockuphome.png"  width ="260px" height="520px"> 
+    <h3 class=" w3-text-light-grey"style="position: relative;margin-top: -100px;">USERFLOW</h3>
+    <hr style="width:160px" class="w3-opacity">
+    <img class="flow" src="Frameuserflow1.png"  width ="1200px" height="800px">
+    <h3 class="w3-padding-16 w3-text-light-grey">TYPOGRAPHY & COLORS </h3>
+    <hr style="width:320px" class="w3-opacity">
+    <p class ="w3-center">  Noto Sans </p>
+    <p class ="w3-center">Semi Bold 24 px </p>
+    <p class ="w3-center">Semi Bold 18px </p>
+    <p class ="w3-center">Regular   14px </p>
+    <img class="uicolor" src="Frame 1colors.png"  width ="600px" height="800px">
+
+    <h3 class="w3-padding-16 w3text--light-grey" style="color: white">WIREFRAMES</h3>
+    <hr style="width:200px" class="w3-opacity">
+    <img class="WIREFRAMES" src="Welcome pagewelcome.png" width ="270px" height="480px">
+    <img class="WIREFRAMES" src="Sign  upaccount.png" width ="270px" height="480px">
+    <img class="WIREFRAMES" src="Successfully signed up.png" width ="270px" height="480px">
+    <img class="WIREFRAMES" src="Search Typeahead.png" width ="270px" height="480px">
+    <img class="WIREFRAMES" src="Home.png" width ="270px" height="480px">
+    <img class="WIREFRAMES" src="Wishlist.png" width ="270px" height="480px">
+    <img class="WIREFRAMES" src="Profile.png" width ="270px" height="480px">
+    <img class="WIREFRAMES" src="Place Order.png"  width ="270px" height="480px">
+    <img class="WIREFRAMES" src="Item description.png"  width ="270px" height="540px">
+  <!-- End About Section -->
+  </div>
+   <!-- Sitemap Section -->
+  <div class="w3-padding-64 w3-content  " id="sitemaps">
+    <h2 class="w3-text-light-grey">SITEMAPS</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <img class="screensite "src="Page Containercompo.png"  width ="150px" height="220px" style="position: relative;margin-left:26.8em;margin-top: 20px;">
+    <p class ="w3-center" style="position: relative;margin-left:-1.8em;margin-top:80px;">Onborading sitemap</p>
+    <img class="screensite"src="Frame 1.png"  width ="1000px" height="1300px" style="position: relative;margin-left:-2.8em; margin-top:-180px">
+    <p class ="w3-center" style="position: relative;margin-left:-1.8em;margin-top:-100px;">Search and Checkout  sitemap</p>
+    <img class="screensite"src="Frame 2.png"  width ="1000px" height="1300px" style="position: relative;margin-left:-2.8em; margin-top:-100px">
+   </div>
+     <!-- End Sitemap Section -->
+
+     <!-- Logos Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">LOGOS</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <img class="logo_hab" src="logo options.png"  width ="650px" height="500px">
+  </div>
+  <!-- Logos Section -->
+
+  <!-- Onboarding Section -->
+  <div class="w3-padding-64 w3-content" id="onboard">
+    <h2 class="w3-text-light-grey">ONBOARDING</h2>
+    <hr style="width:230px" class="w3-opacity">
+    <p style="margin-left:0.8em;" >The user has the option to signup ,login or skip the onboarding page.</p>
+    <img class="screen1" src="X Mockupsc1.png"  width ="240px" height="500px">
+    <img class="screen1"src="X Mockupsc2.png"  width ="240px" height="500px">
+    <img class="screen1"src="X Mockups1.png"  width ="240px" height="500px">
+    <img class="screen1"src="X Mockupp.png"  width ="240px" height="500px">
+    <img class="screen1"src="X Mockupp1.png"  width ="240px" height="500px">
+    <img class="screen1"src="X Mockupsh.png"  width ="240px" height="500px"> 
+  </div>
+     <!-- End Onboarding Section -->
+
+    <!-- Home  Section -->
+  <div class="w3-padding-64 w3-content" id="home_page">
+    <h2 class="w3-text-light-grey">HOME</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p style="margin-left:0.8em;" >The home page allows the user to search products, navigate to wishlist,profile and cart.The home page consist of trending deals and featured brands.</p>
+    <img class="screen1" src="X Mockuphome.png"  width ="240px" height="500px">
+    <div style="padding:53.59% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/546814402?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:-530px;left:370px;width:65%;height:100%;" title="Home"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+  </div>
+    <!-- End Home  Section -->
+
+    <!--  Search Section -->
+  <div class="w3-padding-64 w3-content" style="position:relative;top:-500px;"id="search">
+    <h2 class="w3-text-light-grey">SEARCH PRODUCTS</h2>
+    <hr style="width:310px" class="w3-opacity">
+    <p style="margin-left:0.8em;" >The user can search products by clicking on the search icon in the navigation bar.The user can also search the products by applying filters </p>
+	<img class="screen1"src="X Mockupsearch1.png"  width ="240px" height="500px">
+	<img class="screen1"src="X Mockupsearch2.png"  width ="240px" height="500px">
+	<img class="screen1"src="X Mockupsearch3.png"  width ="240px" height="500px">
+	<img class="screen1"src="X Mockupresult.png"  width ="240px" height="500px">
+	<img class="screen1"src="X Mockupsort.png"     width ="240px" height="500px">
+	<img class="screen1"src="X Mockupfilter.png"   width ="240px" height="500px">
+  </div>
+	 <!-- End Search  Section -->
+
+	 <!-- Profile  Section -->
+   <div class="w3-padding-64 w3-content" style="position:relative;top:-500px;"id="profile">
+    <h2 class="w3-text-light-grey">PROFILE</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p style="margin-left:0.8em;" >The profile page allows the user to edit his profile , check his orders, set or change payment options , raise queries. </p>
+    <img class="screenp" src="X Mockupprofile.png"    width ="240px" height="500px">
+    <img class="screenp"src="X Mockuporder1.png"  width ="240px" height="500px">
+    <img class="screenp"src="X Mockuporder2.png"  width ="240px" height="500px">
+   </div>
+    <!-- End Profile  Section -->
+  
+  <!-- Wishlist Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" style="position:relative;top:-500px;" id="wishlist">
+    <h2 class="w3-text-light-grey">WISHLIST</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p style="margin-left:0.8em;color:white;" >The wishlist page allows the user to add his favourite items to  wishlist. The user can also add the items to his cart from wishlist. </p>
+    <img class="screenw"src="X Mockupw1.png"  width ="240px" height="500px">
+    <img class="screenw"src="X Mockupw2.png"  width ="240px" height="500px">   
+  </div>
+  <!-- End Wishlist Section -->
+ 
+  <!-- Cart Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" style="position:relative;top:-500px;" id="cart">
+    <h2 class="w3-text-light-grey">CART</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p style="margin-left:0.8em; color: white;" >The cart allows the user to manage the quantity of the products he wish to buy and purchase them. </p>
+    <img class="screenc"src="X Mockupc1.png"  width ="240px" height="500px">
+    <img class="screenc"src="X Mockupc3.png"  width ="240px" height="500px">
+    <img class="screenc"src="X Mockupc2.png"  width ="240px" height="500px">
+    <img class="screenc"src="X Mockupc4.png"  width ="240px" height="500px">  
+  </div>
+  <!-- End Cart Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" style="position:relative;top:-500px;" id="cart">
+   <h2 class="w3-text-light-grey">PROTOTYPE</h2>
+  <hr style="width:200px" class="w3-opacity">
+  <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/555810091?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="New Recording - 5/27/2021, 10:30:44 PM"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+  </div>
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" style="position:relative;top:-500px;" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> India</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email:akankshasaxena045@gmail.com</p>
+    </div><br>
+  
+
+   <!-- End Contact Section -->
+
+</div>
+</div>
+<!-- END PAGE CONTENT -->
+
+</body>
+</html>
